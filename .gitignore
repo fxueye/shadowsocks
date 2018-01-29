@@ -1,3 +1,4 @@
 *.deb
 pkg
 bin
+debug
