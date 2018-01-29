@@ -2,7 +2,7 @@
 
 Current version: 1.2.1 [![Build Status](https://travis-ci.org/shadowsocks/shadowsocks-go.png?branch=master)](https://travis-ci.org/shadowsocks/shadowsocks-go)
 
-shadowsocks-go is a lightweight tunnel proxy which can help you get through firewalls. It is a port of [shadowsocks](https://github.com/clowwindy/shadowsocks).
+shadowsocks-go is a lightweight tunnel proxy which can help you get through firewalls. It is a port of [shadowsocks](https://github.com//shadowsocks).
 
 The protocol is compatible with the origin shadowsocks (if both have been upgraded to the latest version).
 
@@ -29,7 +29,7 @@ It's recommended to disable cgo when compiling shadowsocks-go. This will prevent
 
 Both the server and client program will look for `config.json` in the current directory. You can use `-c` option to specify another configuration file.
 
-Configuration file is in json format and has the same syntax with [shadowsocks-nodejs](https://github.com/clowwindy/shadowsocks-nodejs/). You can download the sample [`config.json`](https://shadowsocks-go/blob/master/config.json), change the following values:
+Configuration file is in json format and has the same syntax with [shadowsocks-nodejs](https://github.com//shadowsocks-nodejs/). You can download the sample [`config.json`](https://shadowsocks-go/blob/master/config.json), change the following values:
 
 ```
 server          your server ip or hostname

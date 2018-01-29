@@ -1,6 +1,6 @@
 /**
  * Created with IntelliJ IDEA.
- * User: clowwindy
+ * User: 
  * Date: 12-11-2
  * Time: 上午10:31
  * To change this template use File | Settings | File Templates.
@@ -112,8 +112,7 @@ func UpdateConfig(old, new *Config) {
 	for i := 0; i < newVal.NumField(); i++ {
 		newField := newVal.Field(i)
 		oldField := oldVal.Field(i)
-		// log.Printf("%d: %s %s = %v\n", i,
-		// typeOfT.Field(i).Name, newField.Type(), newField.Interface())
+		// log.Printf("%d: %s %s = %v\n", i,typeOfT.Field(i).Name, newField.Type(), newField.Interface())
 		switch newField.Kind() {
 		case reflect.Interface:
 			if fmt.Sprintf("%v", newField.Interface()) != "" {
